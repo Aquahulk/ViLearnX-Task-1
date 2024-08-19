@@ -53,14 +53,6 @@ print(correlation_matrix)
 # Visualization
 sns.set(style="whitegrid")
 
-# Histogram for age distribution
-# Scatter plot for Fare vs Age
-#'''plt.figure(figsize=(10, 6))
-#sns.scatterplot(data=df, x='Age', y='Fare', hue='Survived')
-#plt.title('Fare vs Age')
-#plt.xlabel('Age')
-#plt.ylabel('Fare')
-#plt.show()'''
 
 # Heatmap for the correlation matrix
 plt.figure(figsize=(10, 8))
